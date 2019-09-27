@@ -11,7 +11,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 class Hello extends React.Component {
   render () {
-    return <h1> Hello {this.props.name}!</h1>;
+    return <h1> Hello a {this.props.name}!</h1>;
   }
 }
 
